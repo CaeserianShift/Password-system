@@ -14,6 +14,7 @@ using namespace std;
 string pass, user, login, gmail, signup, answer, line, sha256userpass, saltpass, saltuser, saltgmail, salt;
 int main(int argc, char *argv[]){
   //salts for the hashes
+  //change and do not give this out. This would allow for decreased time for bruteforce if salt is known.
   saltpass = "Abr$2JCQWW1adbRR31!$";
   saltuser = "Dd2r!$f££f3h!fwfeg£f";
   saltgmail = "ADqw2d131?234222q132";
